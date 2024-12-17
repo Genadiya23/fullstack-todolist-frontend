@@ -25,6 +25,17 @@ function App() {
         <h1> ToDo List For Your Daily Routine</h1>
         <h2> Enter the task you want complete and Click "Add" </h2>
 
+          <div style={{ marginBottom: "20px", textAlign: "left" }}>
+              <h3>API Endpoints</h3>
+              <p>Use the following endpoints in Postman for testing:</p>
+              <ul>
+                <li><strong>Get All To-Do Items</strong> (GET): <a href="http://localhost:5119/" target="_blank" rel="noopener noreferrer">http://localhost:5119/</a></li>
+                <li><strong>Add a New To-Do Item</strong> (POST): <code>http://localhost:5119/save</code></li>
+                <li><strong>Update a To-Do Item</strong> (POST): <code>http://localhost:5119/update</code></li>
+                <li><strong>Delete a To-Do Item</strong> (POST): <code>http://localhost:5119/delete</code></li>
+              </ul>
+        </div>
+
         <div className='top'>
           <input 
           type="text" 
