@@ -22,7 +22,8 @@ function App() {
   return (
     <div className="App">
       <div className='container'> 
-        <h1> ToDo App</h1>
+        <h1> ToDo List For Your Daily Routine</h1>
+        <h2> Enter the task you want complete and Click "Add" </h2>
 
         <div className='top'>
           <input 
